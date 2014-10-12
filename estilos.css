@@ -1,11 +1,40 @@
+/* Ejemplo de tipografia */
+
 body {
 	font-size: 16px;
 }
 
 p {
-	font-size: 24px;
+	font-size: 1.5em;
 }
 
 .box {
-	font-size: 32px;
+	font-size: 2em;
 }
+
+/* Ejemplo de rejilla */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.contenedor {
+	background-color: red;
+	width: 80%;
+	height: 1000px;
+	margin: 0auto;
+	padding: 1em;
+}
+
+.columna {
+	background-color: white;
+	height: 30px;
+	margin-bottom: 1em;
+}
+
+.primera {width: 100%;}
+.segunda {width: 50%;}
+.tercera {width: 25%;}
+.cuarta {width: 75%;}
+.quinta {width: 10%;}
